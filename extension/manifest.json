@@ -1,0 +1,11 @@
+{
+	"manifest_version": 3,
+	"name": "Wikipedia Title Reader",
+	"version": "1.0",
+	"description": "Reads and displays the current Wikipedia article title.",
+	"permissions": ["activeTab", "scripting"],
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"host_permissions": ["https://*.wikipedia.org/*"]
+}
