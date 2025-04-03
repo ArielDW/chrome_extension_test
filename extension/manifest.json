@@ -2,8 +2,14 @@
 	"manifest_version": 3,
 	"name": "Ariel's Chrome Extension Test",
 	"version": "1.0",
-	"description": "Built as a proof of concept. Reads and displays the current website title.",
-	"permissions": ["activeTab", "scripting", "storage", "tabs"],
+	"description": "Built as a proof of concept. I aint know JS so Im just testing.",
+	"permissions": [
+		"activeTab",
+		"scripting",
+		"storage",
+		"tabs",
+		"clipboardWrite"
+	],
 	"action": {
 		"default_popup": "popup.html"
 	},

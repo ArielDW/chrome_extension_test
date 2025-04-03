@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wikipedia Headings</title>
+		<style>
+			body {
+				width: 300px;
+				padding: 10px;
+				font-family: sans-serif;
+			}
+			h2 {
+				margin-top: 0;
+			}
+			ul {
+				list-style: none;
+				padding: 0;
+			}
+			li {
+				margin-bottom: 5px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.heading-text {
+				flex-grow: 1;
+				margin-right: 10px;
+				overflow-wrap: break-word;
+			}
+			button {
+				margin-left: 5px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Wikipedia Headings</h2>
+		<ul id="headings-list">
+			<li>Loading headings...</li>
+		</ul>
+		<script src="popup.js"></script>
+	</body>
+</html>
