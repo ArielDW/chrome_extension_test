@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Wikipedia Title Reader</title>
+		<title>Zendesk Helper</title>
+		<style>
+			body {
+				width: 250px;
+				font-family: sans-serif;
+				padding: 10px;
+			}
+			button {
+				margin-top: 10px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+			#status {
+				font-size: 0.9em;
+				color: green;
+				margin-top: 5px;
+				min-height: 1.2em;
+			}
+		</style>
 	</head>
 	<body>
-		<button id="getTitleButton">Get Title</button>
-		<div id="titleDisplay"></div>
-
+		<h4>Customer Email</h4>
+		<p id="emailDisplay">Loading...</p>
+		<button id="copyButton">Copy Email</button>
+		<div id="status"></div>
 		<script src="popup.js"></script>
 	</body>
 </html>
