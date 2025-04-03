@@ -3,7 +3,7 @@
 	"name": "Ariel's Chrome Extension Test",
 	"version": "1.0",
 	"description": "Built as a proof of concept. Reads and displays the current Wikipedia article title.",
-	"permissions": ["activeTab", "scripting"],
+	"permissions": ["activeTab", "scripting", "storage", "tabs"],
 	"action": {
 		"default_popup": "popup.html"
 	},
